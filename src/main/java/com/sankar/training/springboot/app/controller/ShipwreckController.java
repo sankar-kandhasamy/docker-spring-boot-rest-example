@@ -18,7 +18,7 @@ import com.sankar.training.springboot.app.model.Shipwreck;
  *
  */
 @RestController
-@RequestMapping("/api/v1/")
+@RequestMapping("/api/v2/")
 public class ShipwreckController {
 
 	@RequestMapping(value = "shipwrecks", method = RequestMethod.GET)
